@@ -1,0 +1,215 @@
+/* GENERAL */
+section {
+  padding: 100px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media only screen and (max-width: 568px) {
+  .cover .cover-text h1 {
+    font-size: 50px;
+  }
+  section {
+    padding:20px;
+  }
+}
+
+/* NAVBAR */
+
+#logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.nav-item {
+  padding:10px;
+  cursor:pointer;
+}
+
+nav.navbar {
+  padding:0;
+  font-weight: bold;
+}
+
+.active {
+  /* background:gold; */
+}
+
+/* HEADER */
+
+html,
+body,
+.cover {
+  height:100%;
+}
+
+.cover {
+  background: url("images/bg_header2.jpg") top left no-repeat;
+  background-size:cover;
+  display: table;
+  width:100%;
+  padding: 0 20%;
+  box-shadow: inset 0 0 100px #000;
+}
+
+.cover-text {
+  text-align: center;
+  color:white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cover-text h1 {
+  font-size: 60px;
+  margin:0;
+  letter-spacing: -3px;
+}
+
+.highlight-gold {
+  color:gold;
+}
+
+.btn-danger{
+    margin-top: 75px;
+    background:gold;
+    color:#222;
+    font-weight: bold;
+    border:gold 1px solid;
+}
+
+.btn-danger:link {
+  background:gold;
+  color:#222;
+  font-weight: bold;
+  border:gold 1px solid;
+
+}
+
+.btn-danger:hover {
+  background:#222;
+  color:gold;
+  border: solid 1px #222;
+}
+
+.cover a.btn-danger:active {
+  background:gold!important;
+  color:#222!important;
+  border:solid 1px gold!important;
+  outline: none;
+}
+.cover a.btn-danger:focus {
+    box-shadow: none;
+}
+
+/* WHY US */
+#about-us {
+  text-align: center;
+}
+#about-us h3 {
+    margin-bottom: 15px;
+}
+
+i.fas {
+    font-size: 50px;
+    background: #222;
+    color: gold;
+    height: 125px;
+    width: 125px;
+    line-height: 125px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+}
+/* OUR TEAM */
+
+#our-team {
+  background: url("images/bg_team.jpg") top left no-repeat;
+  background-size:cover;
+  color:white;
+  text-align: center;
+}
+
+#our-team h3 {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/* #our-team img {
+    height: 85px;
+    width: 85px;
+} */
+
+#our-team div {
+    padding: 10px;
+}
+
+/* TESTIMONIAL */
+
+.testimonial {
+  background: #222;
+}
+
+.testimonial h2 {
+    color:white;
+}
+
+blockquote {
+  color:white;
+  font-size: 18px;
+  font-family: Georgia, Times, serif;
+  font-style: italic;
+  border:none;
+  padding: 25px;
+}
+
+blockquote cite {
+    margin-top: 15px;
+    display:block;
+    text-align: right;
+    font-size: 15px;
+    font-family: Helvetica, arial;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+/* CONTACT */
+
+#msg {
+  resize: none;
+}
+
+h2 + p {
+  text-align: center;
+  margin-top: -60px;
+  font-size: 30px!important;
+}
+
+form button {
+  display: block!important;
+  margin:0 auto;
+}
+
+/* FOOTER */
+
+footer {
+  background: #222;
+  color:white;
+  font-family: Georgia, Times, serif;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color:gold;
+  font-weight: bold;
+}
